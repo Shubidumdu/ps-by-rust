@@ -16,3 +16,4 @@ mod tests {
     assert_eq!(get_concatenation(vec![1, 3, 2, 1]), vec![1, 3, 2, 1, 1, 3, 2, 1]);
   }
 }
+
