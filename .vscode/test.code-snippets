@@ -1,0 +1,17 @@
+{
+	"Write new tests": {
+		"scope": "rust",
+		"prefix": "test",
+		"body": [
+			"#[cfg(test)]",
+			"mod tests {",
+			"\tuse super::*;",
+			"",
+			"\t#[test]",
+			"\tfn example1() {",
+			"\t\tassert_eq!($1, $2);",
+			"\t}",
+			"}"
+		],
+	}
+}
